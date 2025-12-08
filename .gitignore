@@ -1,2 +1,2 @@
 # Ignore processed data files that are too large or temporary
-data/processed/*
+data/processed/*.nc
