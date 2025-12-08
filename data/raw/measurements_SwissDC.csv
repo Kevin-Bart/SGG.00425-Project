@@ -1,0 +1,137 @@
+product,measurement,name,dtype,units,nodata,aliases,flags_definition,resolution,time_start,time_end
+arealstatistik,AS09R_17,AS09R_17,int16,category,0,,,100.0,2009,
+arealstatistik,AS09R_27,AS09R_27,int16,category,0,,,100.0,2009,
+arealstatistik,AS09R_4,AS09R_4,int16,category,0,,,100.0,2009,
+arealstatistik,AS09R_72,AS09R_72,int16,category,0,,,100.0,2009,
+arealstatistik,AS18_17,AS18_17,int16,category,0,,,100.0,2018,
+arealstatistik,AS18_27,AS18_27,int16,category,0,,,100.0,2018,
+arealstatistik,AS18_4,AS18_4,int16,category,0,,,100.0,2018,
+arealstatistik,AS18_72,AS18_72,int16,category,0,,,100.0,2018,
+arealstatistik,AS85_17,AS85_17,int16,category,0,,,100.0,1985,
+arealstatistik,AS85_27,AS85_27,int16,category,0,,,100.0,1985,
+arealstatistik,AS85_4,AS85_4,int16,category,0,,,100.0,1985,
+arealstatistik,AS85_72,AS85_72,int16,category,0,,,100.0,1985,
+arealstatistik,AS97_17,AS97_17,int16,category,0,,,100.0,1997,
+arealstatistik,AS97_27,AS97_27,int16,category,0,,,100.0,1997,
+arealstatistik,AS97_4,AS97_4,int16,category,0,,,100.0,1997,
+arealstatistik,AS97_72,AS97_72,int16,category,0,,,100.0,1997,
+arealstatistik,LC09R_27,LC09R_27,int16,category,0,,,100.0,2009,
+arealstatistik,LC09R_6,LC09R_6,int16,category,0,,,100.0,2009,
+arealstatistik,LC18_27,LC18_27,int16,category,0,,,100.0,2018,
+arealstatistik,LC18_6,LC18_6,int16,category,0,,,100.0,2018,
+arealstatistik,LC85_27,LC85_27,int16,category,0,,,100.0,1985,
+arealstatistik,LC85_6,LC85_6,int16,category,0,,,100.0,1985,
+arealstatistik,LC97_27,LC97_27,int16,category,0,,,100.0,1997,
+arealstatistik,LC97_6,LC97_6,int16,category,0,,,100.0,1997,
+arealstatistik,LU09R_10,LU09R_10,int16,category,0,,,100.0,2009,
+arealstatistik,LU09R_4,LU09R_4,int16,category,0,,,100.0,2009,
+arealstatistik,LU09R_46,LU09R_46,int16,category,0,,,100.0,2009,
+arealstatistik,LU18_10,LU18_10,int16,category,0,,,100.0,2018,
+arealstatistik,LU18_4,LU18_4,int16,category,0,,,100.0,2018,
+arealstatistik,LU18_46,LU18_46,int16,category,0,,,100.0,2018,
+arealstatistik,LU85_10,LU85_10,int16,category,0,,,100.0,1985,
+arealstatistik,LU85_4,LU85_4,int16,category,0,,,100.0,1985,
+arealstatistik,LU85_46,LU85_46,int16,category,0,,,100.0,1985,
+arealstatistik,LU97_10,LU97_10,int16,category,0,,,100.0,1997,
+arealstatistik,LU97_4,LU97_4,int16,category,0,,,100.0,1997,
+arealstatistik,LU97_46,LU97_46,int16,category,0,,,100.0,1997,
+arealstatistik,FJ09,FJ09,int16,year,0,,,100.0,2009,
+arealstatistik,FJ18,FJ18,int16,cyear,0,,,100.0,2018,
+arealstatistik,FJ85,FJ85,int16,year,0,,,100.0,1985,
+arealstatistik,FJ97,FJ97,int16,year,0,,,100.0,1997,
+astgtmv003,elevation,elevation,int16,meter,-9999,"['elev', 'altitude']",,30.0,2022-01-01,2022-01-01
+astgtmv003,slope,slope,float32,degrees,-9999,['slp'],,30.0,2022-01-01,2022-01-01
+astgtmv003,aspect,aspect,float32,degrees,-9999,"['asp', 'azimuth']",,30.0,2022-01-01,2022-01-01
+combiprecip,hourly_precipitation,hourly_precipitation,float32,mm,-9999,[],,1000.0,2005-01-01,2025-05-18
+corinelc_europe,CLC1990,CLC1990,int16,category,48,,,100.0,1990,
+corinelc_europe,CLC2000,CLC2000,int16,category,48,,,100.0,2000,
+corinelc_europe,CLC2006,CLC2006,int16,category,48,,,100.0,2006,
+corinelc_europe,CLC2012,CLC2012,int16,category,48,,,100.0,2012,
+corinelc_europe,CLC2018,CLC2018,int16,category,48,,,100.0,2018,
+corinelc_switzerland,CLC1990_CH,CLC1990_CH,int16,category,255,,,100.0,1970-01-01,1970-01-01
+GE1,blue,blue,uint16,1,0,['band_3'],,1.0,2022-08-13,2022-08-13
+GE1,green,green,uint16,1,0,['band_2'],,1.0,2022-08-13,2022-08-13
+GE1,nir,nir,uint16,1,0,['band_4'],,1.0,2022-08-13,2022-08-13
+GE1,red,red,uint16,1,0,['band_1'],,1.0,2022-08-13,2022-08-13
+landsat_etm_c2_l2,SR_B1,SR_B1,uint16,1,0,"['band_1', 'blue']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_B2,SR_B2,uint16,1,0,"['band_2', 'green']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_B3,SR_B3,uint16,1,0,"['band_3', 'red']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_B4,SR_B4,uint16,1,0,"['band_4', 'nir']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_B5,SR_B5,uint16,1,0,"['band_5', 'swir_1']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_B7,SR_B7,uint16,1,0,"['band_7', 'swir_2']",,30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,QA_PIXEL,QA_PIXEL,uint16,bit_index,1,"['pq', 'pixel_quality']","{'snow': {'bits': 5, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'clear': {'bits': 6, 'values': {'0': False, '1': True}}, 'cloud': {'bits': 3, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'water': {'bits': 7, 'values': {'0': 'land_or_cloud', '1': 'water'}}, 'nodata': {'bits': 0, 'values': {'0': False, '1': True}}, 'cloud_shadow': {'bits': 4, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'dilated_cloud': {'bits': 1, 'values': {'0': 'not_dilated', '1': 'dilated'}}, 'cloud_confidence': {'bits': [8, 9], 'values': {'0': 'none', '1': 'low', '2': 'medium', '3': 'high'}}, 'snow_ice_confidence': {'bits': [12, 13], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}, 'cloud_shadow_confidence': {'bits': [10, 11], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}}",30.0,1999-06-30,2023-10-22
+landsat_etm_c2_l2,QA_RADSAT,QA_RADSAT,uint16,bit_index,0,"['radsat', 'radiometric_saturation']","{'dropped_pixel': {'bits': 9, 'values': {'0': False, '1': True}}, 'nir_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'red_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'blue_saturation': {'bits': 0, 'values': {'0': False, '1': True}}, 'green_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'tir_h_saturation': {'bits': 8, 'values': {'0': False, '1': True}}, 'tir_l_saturation': {'bits': 5, 'values': {'0': False, '1': True}}, 'band_1_saturation': {'bits': 0, 'values': {'0': False, '1': True}}, 'band_2_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'band_3_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'band_4_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'band_5_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'band_7_saturation': {'bits': 6, 'values': {'0': False, '1': True}}, 'swir_1_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'swir_2_saturation': {'bits': 6, 'values': {'0': False, '1': True}}, 'band_6H_saturation': {'bits': 8, 'values': {'0': False, '1': True}}, 'band_6L_saturation': {'bits': 5, 'values': {'0': False, '1': True}}}",,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_ATMOS_OPACITY,SR_ATMOS_OPACITY,int16,1,-9999,['atmos_opacity'],,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,SR_CLOUD_QA,SR_CLOUD_QA,uint8,bit_index,0,['cloud_qa'],"{'snow': {'bits': 4, 'values': {'0': False, '1': True}}, 'cloud': {'bits': 1, 'values': {'0': False, '1': True}}, 'water': {'bits': 5, 'values': {'0': False, '1': True}}, 'cloud_shadow': {'bits': 2, 'values': {'0': False, '1': True}}, 'adjacent_to_cloud': {'bits': 3, 'values': {'0': False, '1': True}}, 'dark_dense_vegetation': {'bits': 0, 'values': {'0': False, '1': True}}}",,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_B6,ST_B6,uint16,Kelvin,0,"['band_6', 'tirs', 'st', 'surface_temperature']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_TRAD,ST_TRAD,int16,W/(m2.sr.μm),-9999,"['trad', 'thermal_radiance']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_URAD,ST_URAD,int16,W/(m2.sr.μm),-9999,"['urad', 'upwell_radiance']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_DRAD,ST_DRAD,int16,W/(m2.sr.μm),-9999,"['drad', 'downwell_radiance']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_ATRAN,ST_ATRAN,int16,1,-9999,"['atran', 'atmospheric_transmittance']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_EMIS,ST_EMIS,int16,1,-9999,"['emis', 'emissivity']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_EMSD,ST_EMSD,int16,1,-9999,"['emsd', 'emissivity_stddev']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_CDIST,ST_CDIST,int16,Kilometers,-9999,"['cdist', 'cloud_distance']",,,1999-06-30,2023-10-22
+landsat_etm_c2_l2,ST_QA,ST_QA,int16,Kelvin,-9999,"['st_qa', 'surface_temperature_quality', 'surface_temperature_uncertainty']",,,1999-06-30,2023-10-22
+landsat_ot_c2_l2,SR_B1,SR_B1,uint16,1,0,"['band_1', 'coastal_aerosol']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B2,SR_B2,uint16,1,0,"['band_2', 'blue']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B3,SR_B3,uint16,1,0,"['band_3', 'green']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B4,SR_B4,uint16,1,0,"['band_4', 'red']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B5,SR_B5,uint16,1,0,"['band_5', 'nir']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B6,SR_B6,uint16,1,0,"['band_6', 'swir_1']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_B7,SR_B7,uint16,1,0,"['band_7', 'swir_2']",,30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,QA_PIXEL,QA_PIXEL,uint16,bit_index,1,"['pq', 'pixel_quality']","{'snow': {'bits': 5, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'clear': {'bits': 6, 'values': {'0': False, '1': True}}, 'cloud': {'bits': 3, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'water': {'bits': 7, 'values': {'0': 'land_or_cloud', '1': 'water'}}, 'cirrus': {'bits': 2, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'nodata': {'bits': 0, 'values': {'0': False, '1': True}}, 'cloud_shadow': {'bits': 4, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'dilated_cloud': {'bits': 1, 'values': {'0': 'not_dilated', '1': 'dilated'}}, 'cloud_confidence': {'bits': [8, 9], 'values': {'0': 'none', '1': 'low', '2': 'medium', '3': 'high'}}, 'cirrus_confidence': {'bits': [14, 15], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}, 'snow_ice_confidence': {'bits': [12, 13], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}, 'cloud_shadow_confidence': {'bits': [10, 11], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}}",30.0,2013-03-22,2025-05-31
+landsat_ot_c2_l2,QA_RADSAT,QA_RADSAT,uint16,bit_index,0,"['radsat', 'radiometric_saturation']","{'nir_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'red_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'blue_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'green_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'band_1_saturation': {'bits': 0, 'values': {'0': False, '1': True}}, 'band_2_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'band_3_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'band_4_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'band_5_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'band_6_saturation': {'bits': 5, 'values': {'0': False, '1': True}}, 'band_7_saturation': {'bits': 6, 'values': {'0': False, '1': True}}, 'swir_1_saturation': {'bits': 5, 'values': {'0': False, '1': True}}, 'swir_2_saturation': {'bits': 6, 'values': {'0': False, '1': True}}, 'terrain_occlusion': {'bits': 11, 'values': {'0': False, '1': True}}}",,2013-03-22,2025-05-31
+landsat_ot_c2_l2,SR_QA_AEROSOL,SR_QA_AEROSOL,uint8,bit_index,1,"['qa_aerosol', 'aerosol_qa']","{'water': {'bits': 2, 'values': {'0': False, '1': True}}, 'nodata': {'bits': 0, 'values': {'0': False, '1': True}}, 'aerosol_level': {'bits': [6, 7], 'values': {'0': 'climatology', '1': 'low', '2': 'medium', '3': 'high'}}, 'interpolated_aerosol': {'bits': 5, 'values': {'0': False, '1': True}}, 'valid_aerosol_retrieval': {'bits': 1, 'values': {'0': False, '1': True}}}",,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_B10,ST_B10,uint16,Kelvin,0,"['band_10', 'tirs', 'st', 'surface_temperature']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_TRAD,ST_TRAD,int16,W/(m2.sr.μm),-9999,"['trad', 'thermal_radiance']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_URAD,ST_URAD,int16,W/(m2.sr.μm),-9999,"['urad', 'upwell_radiance']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_DRAD,ST_DRAD,int16,W/(m2.sr.μm),-9999,"['drad', 'downwell_radiance']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_ATRAN,ST_ATRAN,int16,1,-9999,"['atran', 'atmospheric_transmittance']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_EMIS,ST_EMIS,int16,1,-9999,"['emis', 'emissivity']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_EMSD,ST_EMSD,int16,1,-9999,"['emsd', 'emissivity_stddev']",,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_CDIST,ST_CDIST,int16,Kilometers,-9999,['cdist'],,,2013-03-22,2025-05-31
+landsat_ot_c2_l2,ST_QA,ST_QA,int16,Kelvin,-9999,"['st_qa', 'surface_temperature_quality', 'surface_temperature_uncertainty']",,,2013-03-22,2025-05-31
+landsat_tm_c2_l2,SR_B1,SR_B1,uint16,1,0,"['band_1', 'blue']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_B2,SR_B2,uint16,1,0,"['band_2', 'green']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_B3,SR_B3,uint16,1,0,"['band_3', 'red']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_B4,SR_B4,uint16,1,0,"['band_4', 'nir']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_B5,SR_B5,uint16,1,0,"['band_5', 'swir_1']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_B7,SR_B7,uint16,1,0,"['band_7', 'swir_2']",,30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,QA_PIXEL,QA_PIXEL,uint16,bit_index,1,"['pq', 'pixel_quality']","{'snow': {'bits': 5, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'clear': {'bits': 6, 'values': {'0': False, '1': True}}, 'cloud': {'bits': 3, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'water': {'bits': 7, 'values': {'0': 'land_or_cloud', '1': 'water'}}, 'nodata': {'bits': 0, 'values': {'0': False, '1': True}}, 'cloud_shadow': {'bits': 4, 'values': {'0': 'not_high_confidence', '1': 'high_confidence'}}, 'dilated_cloud': {'bits': 1, 'values': {'0': 'not_dilated', '1': 'dilated'}}, 'cloud_confidence': {'bits': [8, 9], 'values': {'0': 'none', '1': 'low', '2': 'medium', '3': 'high'}}, 'snow_ice_confidence': {'bits': [12, 13], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}, 'cloud_shadow_confidence': {'bits': [10, 11], 'values': {'0': 'none', '1': 'low', '2': 'reserved', '3': 'high'}}}",30.0,1984-03-28,2011-11-16
+landsat_tm_c2_l2,QA_RADSAT,QA_RADSAT,uint16,bit_index,0,"['radsat', 'radiometric_saturation']","{'dropped_pixel': {'bits': 9, 'values': {'0': False, '1': True}}, 'nir_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'red_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'tir_saturation': {'bits': 5, 'values': {'0': False, '1': True}}, 'blue_saturation': {'bits': 0, 'values': {'0': False, '1': True}}, 'green_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'band_1_saturation': {'bits': 0, 'values': {'0': False, '1': True}}, 'band_2_saturation': {'bits': 1, 'values': {'0': False, '1': True}}, 'band_3_saturation': {'bits': 2, 'values': {'0': False, '1': True}}, 'band_4_saturation': {'bits': 3, 'values': {'0': False, '1': True}}, 'band_5_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'band_6_saturation': {'bits': 5, 'values': {'0': False, '1': True}}, 'band_7_saturation': {'bits': 6, 'values': {'0': False, '1': True}}, 'swir_1_saturation': {'bits': 4, 'values': {'0': False, '1': True}}, 'swir_2_saturation': {'bits': 6, 'values': {'0': False, '1': True}}}",,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_ATMOS_OPACITY,SR_ATMOS_OPACITY,int16,1,-9999,['atmos_opacity'],,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,SR_CLOUD_QA,SR_CLOUD_QA,uint8,bit_index,0,['cloud_qa'],"{'snow': {'bits': 4, 'values': {'0': False, '1': True}}, 'cloud': {'bits': 1, 'values': {'0': False, '1': True}}, 'water': {'bits': 5, 'values': {'0': False, '1': True}}, 'cloud_shadow': {'bits': 2, 'values': {'0': False, '1': True}}, 'adjacent_to_cloud': {'bits': 3, 'values': {'0': False, '1': True}}, 'dark_dense_vegetation': {'bits': 0, 'values': {'0': False, '1': True}}}",,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_B6,ST_B6,uint16,Kelvin,0,"['band_6', 'tirs', 'st', 'surface_temperature']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_TRAD,ST_TRAD,int16,W/(m2.sr.μm),-9999,"['trad', 'thermal_radiance']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_URAD,ST_URAD,int16,W/(m2.sr.μm),-9999,"['urad', 'upwell_radiance']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_DRAD,ST_DRAD,int16,W/(m2.sr.μm),-9999,"['drad', 'downwell_radiance']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_ATRAN,ST_ATRAN,int16,1,-9999,"['atran', 'atmospheric_transmittance']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_EMIS,ST_EMIS,int16,1,-9999,"['emis', 'emissivity']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_EMSD,ST_EMSD,int16,1,-9999,"['emsd', 'emissivity_stddev']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_CDIST,ST_CDIST,int16,Kilometers,-9999,"['cdist', 'cloud_distance']",,,1984-03-28,2011-11-16
+landsat_tm_c2_l2,ST_QA,ST_QA,int16,Kelvin,-9999,"['st_qa', 'surface_temperature_quality', 'surface_temperature_uncertainty']",,,1984-03-28,2011-11-16
+RapidMapping,blue,blue,uint16,1,0,['band_4'],,,2022-08-13,2022-08-13
+RapidMapping,green,green,uint16,1,0,['band_3'],,,2022-08-13,2022-08-13
+RapidMapping,nir,nir,uint16,1,0,['band_1'],,,2022-08-13,2022-08-13
+RapidMapping,red,red,uint16,1,0,['band_2'],,,2022-08-13,2022-08-13
+s2_l2,B01,B01,uint16,1,0,"['band_1', 'band_01', 'coastal_aerosol']",,60.0,2015-06-27,2025-05-30
+s2_l2,B02,B02,uint16,1,0,"['band_2', 'band_02', 'blue']",,10.0,2015-06-27,2025-05-30
+s2_l2,B03,B03,uint16,1,0,"['band_3', 'band_03', 'green']",,10.0,2015-06-27,2025-05-30
+s2_l2,B04,B04,uint16,1,0,"['band_4', 'band_04', 'red']",,10.0,2015-06-27,2025-05-30
+s2_l2,B05,B05,uint16,1,0,"['band_5', 'veg5', 'band_05', 'red_edge_1']",,20.0,2015-06-27,2025-05-30
+s2_l2,B06,B06,uint16,1,0,"['band_06', 'veg6', 'band_06', 'red_edge_2']",,20.0,2015-06-27,2025-05-30
+s2_l2,B07,B07,uint16,1,0,"['band_07', 'veg7', 'band_07', 'red_edge_3']",,20.0,2015-06-27,2025-05-30
+s2_l2,B08,B08,uint16,1,0,"['band_8', 'band_08', 'nir', 'nir_1']",,10.0,2015-06-27,2025-05-30
+s2_l2,B8A,B8A,uint16,1,0,"['band_8a', 'narrow_nir', 'nir_narrow', 'nir_2']",,20.0,2015-06-27,2025-05-30
+s2_l2,B09,B09,uint16,1,0,"['band_9', 'band_09', 'water_vapour']",,60.0,2015-06-27,2025-05-30
+s2_l2,B11,B11,uint16,1,0,"['band_11', 'swir1', 'swir_1', 'swir_16']",,20.0,2015-06-27,2025-05-30
+s2_l2,B12,B12,uint16,1,0,"['band_12', 'swir2', 'swir_2', 'swir_22']",,20.0,2015-06-27,2025-05-30
+s2_l2,SCL,SCL,uint8,1,0,"['slc', 'mask', 'qa']","{'qa': {'bits': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'values': {'0': 'no data', '1': 'saturated or defective', '2': 'dark area pixels', '3': 'cloud shadows', '4': 'vegetation', '5': 'bare soils', '6': 'water', '7': 'unclassified', '8': 'cloud medium probability', '9': 'cloud high probability', '10': 'thin cirrus', '11': 'snow or ice'}, 'description': 'Sen2Cor Scene Classification'}}",,2015-06-27,2025-05-30
+s2_l2,AOT,AOT,uint16,1,0,['aerosol_optical_thickness'],,,2015-06-27,2025-05-30
+s2_l2,WVP,WVP,uint16,1,0,"['water_vapour', 'scene_average_water_vapour']",,,2015-06-27,2025-05-30
+swissalti3d,elevation,elevation,float32,meter,-9999,"['elev', 'altitude']",,2.0,2022-01-01,2022-01-01
+swissalti3d,slope,slope,float32,degrees,-9999,['slp'],,2.0,2022-01-01,2022-01-01
+swissalti3d,aspect,aspect,float32,degrees,-9999,"['asp', 'azimuth']",,2.0,2022-01-01,2022-01-01
+swissimagedop10,red,red,uint16,1,0,['band_1'],,0.1,2020-12-31,2020-12-31
+swissimagedop10,green,green,uint16,1,0,['band_2'],,0.1,2020-12-31,2020-12-31
+swissimagedop10,blue,blue,uint16,1,0,['band_3'],,0.1,2020-12-31,2020-12-31
